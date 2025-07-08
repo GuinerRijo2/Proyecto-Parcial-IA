@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Muro industrial -->
+  <defs>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#666666;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#444444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="metalPattern" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#444444"/>
+      <circle cx="4" cy="4" r="1" fill="#666666"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base del muro -->
+  <rect width="32" height="32" fill="url(#wallGradient)" stroke="#222222" stroke-width="1"/>
+  
+  <!-- Patrón metálico -->
+  <rect width="32" height="32" fill="url(#metalPattern)" opacity="0.5"/>
+  
+  <!-- Paneles -->
+  <rect x="2" y="2" width="28" height="12" fill="#555555" stroke="#333333" stroke-width="1"/>
+  <rect x="2" y="18" width="28" height="12" fill="#555555" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Tornillos -->
+  <circle cx="6" cy="6" r="1" fill="#777777" stroke="#333333" stroke-width="0.5"/>
+  <circle cx="26" cy="6" r="1" fill="#777777" stroke="#333333" stroke-width="0.5"/>
+  <circle cx="6" cy="26" r="1" fill="#777777" stroke="#333333" stroke-width="0.5"/>
+  <circle cx="26" cy="26" r="1" fill="#777777" stroke="#333333" stroke-width="0.5"/>
+  
+  <!-- Líneas de detalle -->
+  <line x1="0" y1="16" x2="32" y2="16" stroke="#777777" stroke-width="1" opacity="0.7"/>
+  <line x1="16" y1="0" x2="16" y2="32" stroke="#777777" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Luces de advertencia -->
+  <rect x="14" y="1" width="4" height="2" fill="#FF4444" opacity="0.8"/>
+  <rect x="14" y="29" width="4" height="2" fill="#FF4444" opacity="0.8"/>
+</svg> 

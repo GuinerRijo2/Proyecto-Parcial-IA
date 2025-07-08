@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8" height="12" viewBox="0 0 8 12" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bala del alien -->
+  <defs>
+    <radialGradient id="acidGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFF00;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC3300;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="acidGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFF00;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FF6600;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Resplandor ácido -->
+  <ellipse cx="4" cy="6" rx="5" ry="8" fill="url(#acidGlow)"/>
+  
+  <!-- Cuerpo principal -->
+  <ellipse cx="4" cy="6" rx="2.5" ry="5" fill="url(#acidGradient)" stroke="#CC3300" stroke-width="0.5"/>
+  
+  <!-- Gotas ácidas -->
+  <circle cx="2" cy="8" r="0.5" fill="#FFFF00" opacity="0.8"/>
+  <circle cx="6" cy="7" r="0.5" fill="#FFFF00" opacity="0.8"/>
+  <circle cx="4" cy="9" r="0.3" fill="#FF6600" opacity="0.9"/>
+  
+  <!-- Núcleo tóxico -->
+  <ellipse cx="4" cy="6" rx="1" ry="2" fill="#FFFFFF" opacity="0.3"/>
+</svg> 
